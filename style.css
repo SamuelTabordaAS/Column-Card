@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Sintony:wght@700&display=swap');
+
+
+* { 
+  margin : 0; 
+  box-sizing: border-box;
+}
+
+
+main { 
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 250px;
+  
+  
+}
+
+
+.sedans{ 
+  background-color: orange;
+  width: 350px;
+  height: 500px;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem ;
+  
+}
+
+.suvs{ 
+  background-color: #1b7596;
+  width: 350px;
+  height: 500px;
+  
+}
+
+.luxury{ 
+  background-color: #023b41;
+  width: 350px;
+  height: 500px;
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem ;
+  
+}
+
+.itens { 
+  margin-top: 50px; 
+  margin-left: 45px;
+}
+
+
+
+.div-title{ 
+  
+  margin-top: 40px;
+}
+.title{ 
+  color: white; 
+  font-family: "Sintony", sans-serif;
+  font-weight: 700;
+}
+
+
+.div-text{ 
+ 
+  margin-top: 40px; 
+  
+}
+.text{
+  color: white; 
+  line-height: 22px;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
+
+.div-button{ 
+  margin-top: 97px;
+}
+
+.button-sedans{ 
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  border: 0cm;
+  color: orange;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
+
+.button-suvs{ 
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  border: 0cm;
+  color: #1b7596;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
+
+.button-luxury{ 
+  padding: 13px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 30px;
+  border: 0cm;
+  color:#023b41;
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+}
